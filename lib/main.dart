@@ -1,5 +1,7 @@
 import 'package:dashboard_app/Pages/Dashboard.dart';
+import 'package:dashboard_app/Pages/MyHomepage.dart';
 import 'package:dashboard_app/Pages/Payment.dart';
+import 'package:dashboard_app/Pages/colorpicker.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -35,7 +37,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: Payment()
+      home: colorpicker()
     );
   }
 }
